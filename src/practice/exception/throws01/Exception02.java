@@ -1,4 +1,4 @@
-package practice.exception.throws_;
+package practice.exception.throws01;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package test.test03;
+package test.testGame;
 
 import javax.swing.*;
 import java.awt.*;
