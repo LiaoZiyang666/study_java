@@ -16,7 +16,7 @@ public class Exception03 {
         String s = "a.txt1";
         try {
             add(s);
-        }catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) {
             System.out.println(e);
         }
         find();
@@ -41,10 +41,12 @@ public class Exception03 {
     private static void find() {
         System.out.println("查询功能");
     }
-    private static void update () {
+
+    private static void update() {
         System.out.println("修改功能");
     }
-    private static void delete () {
+
+    private static void delete() {
         System.out.println("删除功能");
     }
 }
