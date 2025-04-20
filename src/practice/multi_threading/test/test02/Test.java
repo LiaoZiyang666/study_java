@@ -13,11 +13,13 @@ public class Test {
     public static void main(String[] args) {
 
         Odd odd = new Odd();
-        Thread t1 = new Thread(odd, "奇数");
+        Thread t1 = new Thread(odd);
 
         Even even = new Even();
-        Thread t2 = new Thread(even, "偶数");
+        Thread t2 = new Thread(even);
         t1.start();
+
+
         t2.start();
 
     }
