@@ -29,6 +29,7 @@ class SubThread extends Thread {
             for (int i = 0; i < 10; i++) {
                 System.out.println("打印：" + i);
                 try {
+
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
