@@ -1,4 +1,4 @@
-package practice.multi_threading.thread_safe;
+package practice.multi_threading.thread_safe.unsafe;
 
 /**
  * ClassName: SaleTicketDemo5
