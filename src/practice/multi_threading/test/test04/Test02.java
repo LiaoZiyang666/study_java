@@ -13,7 +13,7 @@ public class Test02 {
     public static void main(String[] args) {
         MyThreads m1 = new MyThreads();
         m1.start();
-        try {
+    try {
             m1.join();
         }catch (InterruptedException e ) {
             e.printStackTrace();
