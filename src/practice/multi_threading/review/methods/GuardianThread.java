@@ -28,6 +28,9 @@ class MyThread12 extends Thread {
     }
 }
 
+/**
+ * @author AYXY
+ */
 public class GuardianThread {
     public static void main(String[] args) {
         MyThread11 t1 = new MyThread11();
