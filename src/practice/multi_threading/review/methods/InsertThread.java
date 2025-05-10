@@ -3,7 +3,6 @@ package practice.multi_threading.review.methods;
 /**
  * ClassName: InsertThread
  * Package: practice.multi_threading.review.methods
- * Description: Consumer producer
  *
  * @author 廖子杨
  * CreateTime: 2025/5/7 - 12:00
