@@ -3,7 +3,7 @@ package practice.multi_threading.threadCommunication;
 /**
  * ClassName: ConsumerProducerTest
  * Package: practice.multi_threading.threadCommunication
- * Description:
+ * Description:good
  *
  * @author 廖子杨
  * CreateTime: 2025/5/10 - 10:02
