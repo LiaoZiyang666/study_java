@@ -17,9 +17,9 @@ import java.util.concurrent.FutureTask;
 public class CallableTest {
     public static void main(String[] args) {
         //3.创建Callable接口实现类的对象
-        NumberThread numberThread = new NumberThread();
+        NumberThreads numberThreads = new NumberThreads();
         //4.将此Callable接口实现类的对象作为实参传递到FutureTask构造器中，创建FutureTask的对象
-        FutureTask futureTask = new FutureTask(numberThread);
+        FutureTask futureTask = new FutureTask(numberThreads);
         //5.将FutureTask的对象作为实参传递到Thread类的构造器中，创建Thread对象，并调用start();
         new Thread(futureTask).start();
 
@@ -41,7 +41,7 @@ public class CallableTest {
  * 创建多线程的方式三：实现Callable（jdk5.0新增的）
  */
 //  1.创建一个实现Callable的实现类
-class NumberThread implements Callable{
+class NumberThreads implements Callable{
     //2.实现call方法，将此线程需要执行的操作声明在call()中
 
     @Override
