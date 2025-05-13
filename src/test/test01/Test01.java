@@ -13,5 +13,7 @@ package test.test01;
 public class Test01 {
     public static void main(String[] args) {
         System.out.println("test");
+        String str = new String("hello");
+        System.out.println(str);
     }
 }
