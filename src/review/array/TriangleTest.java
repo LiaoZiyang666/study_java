@@ -9,7 +9,7 @@ package review.array;
  * 18. 第一行有 1 个元素, 第 n 行有 n 个元素
  * 19. 每一行的第一个元素和最后一个元素都是 1
  * 20. 从第三行开始, 对于非第一个元素和最后一个元素的元素。即：
- * yangHui[i][j] = yanghui[i-1][j-1] + yanghui[i-1][j];
+ *triangleArrays[i][j] = triangleArrays[i - 1][j - 1] + triangleArrays[i - 1][j];
  *
  * @author 廖子杨
  * CreateTime: 2025/5/13 - 20:19
