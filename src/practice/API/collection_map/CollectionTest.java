@@ -1,4 +1,4 @@
-package practice.API.list;
+package practice.API.collection_map;
 
 import org.junit.jupiter.api.Test;
 
