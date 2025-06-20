@@ -58,7 +58,7 @@ public class ListTest {
         //addAll(int index, Collection eles)
         List list1 = Arrays.asList(1, 2, 3);
         list.addAll(1, list1);
-//        list.add(1,list1); //将list1整体作为一个元素，插入到索引1的位置
+//        list.add(1,list1); //将list1整体作为一个元素，插入到索引1的位置  实现类
         System.out.println(list);
     }
 
