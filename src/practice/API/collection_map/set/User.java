@@ -1,5 +1,7 @@
 package practice.API.collection_map.set;
 
+import java.util.Objects;
+
 /**
  * ClassName: User
  * Package: practice.API.collection_map.set
@@ -65,5 +67,19 @@ public class User implements Comparable{
 
         }
         throw new RuntimeException("类型不匹配");
+    }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object == null || getClass() != object.getClass()) {
+            return false;
+        }
+        User user = (User) object;
+        return age == user.age && Objects.equals(name, user.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
     }
 }
